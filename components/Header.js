@@ -1,16 +1,16 @@
 const Header = () => {
   return (
     <>
-      <header className="bg-black">
+      <header className="w-[1246px] h-[50px] mx-auto">
         <nav
-          className="flex justify-between items-center md:mx-[100px] 
-                    pt-4 mx-[29px] h-48"
+          className="flex justify-between items-center 
+                    pt-4 h-20 w-full mx-auto"
         >
           <div>
             <a className="text-[#6765F0] text-xl">
               <span
                 className="bg-[#6765F0] text-white 
-                          px-2 py-1 rounded-[8px]"
+                          px-2 py-1 rounded-[8px] drop-shadow-2xl mr-[11px]"
               >
                 Gym
               </span>
@@ -19,10 +19,10 @@ const Header = () => {
           </div>
 
           <div
-            className="md:static absolute bg-red-500
-                  left-0 top-[-100%] h-36 flex items-center md:w-auto w-full"
+            className="md:static absolute text-white
+                  left-0 top-[-100%] h-16 flex items-center md:w-auto w-full"
           >
-            <ul className="flex md:flex-row flex-col pl-7 md:pl-0">
+            <ul className="flex md:flex-row flex-col pl-7 md:pl-0 text-black">
               <li className="md:mx-[25px] md:py-1">
                 <a>Home</a>
               </li>
@@ -36,7 +36,7 @@ const Header = () => {
                 <a>About us</a>
               </li>
 
-              <div className="md:ml-[48px]">
+              <div className="md:ml-[48px] drop-shadow-2xl">
                 <button
                   className="bg-[#264373] text-white 
                             px-5 py-1 rounded-[0.625rem]"
