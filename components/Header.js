@@ -6,11 +6,11 @@ const Header = () => {
           className="flex justify-between items-center 
                     pt-4 h-20 w-full mx-auto"
         >
-          <div>
+          <div className="w-[67px] h-[38px]">
             <a className="text-[#6765F0] text-xl">
               <span
                 className="bg-[#6765F0] text-white 
-                          px-2 py-1 rounded-[8px] drop-shadow-2xl mr-[11px]"
+                        px-[6px] py-[3px] rounded-[8px] drop-shadow-2xl mr-[11px]"
               >
                 Gym
               </span>
@@ -23,23 +23,23 @@ const Header = () => {
                   left-0 top-[-100%] h-16 flex items-center md:w-auto w-full"
           >
             <ul className="flex md:flex-row flex-col pl-7 md:pl-0 text-black">
-              <li className="md:mx-[25px] md:py-1">
+              <li className="md:mx-[25px] md:py-3">
                 <a>Home</a>
               </li>
-              <li className="md:mx-[25px] md:py-1">
+              <li className="md:mx-[25px] md:py-3">
                 <a>Program</a>
               </li>
-              <li className="md:mx-[25px] md:py-1">
+              <li className="md:mx-[25px] md:py-3">
                 <a>Blog</a>
               </li>
-              <li className="md:ml-[25px] md:py-1">
+              <li className="md:ml-[25px] md:py-3">
                 <a>About us</a>
               </li>
 
-              <div className="md:ml-[48px] drop-shadow-2xl">
+              <div className="md:ml-[48px]  drop-shadow-2xl">
                 <button
                   className="bg-[#264373] text-white 
-                            px-5 py-1 rounded-[0.625rem]"
+                            pr-[32px]  pl-[35px] py-[13px] rounded-[0.625rem]"
                   type="submit"
                 >
                   Log in

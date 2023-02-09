@@ -7,9 +7,9 @@ const Hero = () => {
         {/* ------ 1st part -------*/}
         <div
           className="w-1/2 border-2 border-red-500
-                    flex flex-col"
+                    flex md:flex-col"
         >
-          <h2 className="font-bold text-[73px] text-[#262524] leading-[73px]">
+          <h2 className="font-bold text-[56px] text-[#262524] leading-[73px]">
             Healthy in side <br></br>
             <span className="text-[#8382EB]">fresh</span> out side
           </h2>
@@ -20,11 +20,11 @@ const Hero = () => {
           </p>
 
           <div className="mt-[22px] flex">
-            <div
+            <button
               className="w-[246px] h-[56px] bg-[#264373] text-white flex justify-around items-center
                         drop-shadow-2xl rounded-[10px]"
             >
-              <button>Get Started</button>
+              Get Started
               <svg
                 width="26"
                 height="26"
@@ -37,9 +37,9 @@ const Hero = () => {
                   fill="white"
                 />
               </svg>
-            </div>
+            </button>
 
-            <div
+            <button
               className="w-[174px] h-[56px] bg-white text-[#264373] flex justify-around items-center
                         drop-shadow-2xl rounded-[10px] ml-[35px]"
             >
@@ -55,9 +55,8 @@ const Hero = () => {
                   fill="#264373"
                 />
               </svg>
-
-              <button>Learn more</button>
-            </div>
+              Learn more
+            </button>
           </div>
 
           {/*------ brands ------*/}
@@ -66,8 +65,10 @@ const Hero = () => {
         </div>
 
         {/* ------ 2nd part --------*/}
-        <div className="w-1/2 border-2 border-blue-500">
-          <h3>Trainer part</h3>
+        <div
+          className="w-1/2 border-2 border-blue-500
+        flex items-center justify-center"
+        >
           <Image
             src="/images/strong-man-training-gym2.png"
             width={380}
