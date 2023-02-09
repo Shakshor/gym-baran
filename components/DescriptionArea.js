@@ -3,7 +3,7 @@ import Image from "next/image";
 const DescriptionArea = () => {
   return (
     <div
-      className="w-[1241px] h-[497px] border-2 border-red-500
+      className="w-[1241px]  border-2 border-red-500
   mx-auto flex justify-between items-center"
     >
       <div className="flex justify-around items-center">
@@ -12,11 +12,7 @@ const DescriptionArea = () => {
           className="w-1/2 border-2 border-black
             flex items-center justify-center"
         >
-          <Image
-            src="/images/strong-man-training-gym2.png"
-            width={416}
-            height={496}
-          ></Image>
+          <Image src="/images/trainer2.png" width={416} height={496}></Image>
         </div>
 
         {/* ------ 2nd part-------- */}

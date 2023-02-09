@@ -66,14 +66,20 @@ const Hero = () => {
 
         {/* ------ 2nd part --------*/}
         <div
-          className="w-1/2 border-2 border-blue-500
-        flex items-center justify-center"
+          className="relative w-1/2 border-2 border-blue-500
+        flex items-center justify-center bg-gray-300"
         >
           <Image
-            src="/images/strong-man-training-gym2.png"
+            src="/images/trainer.png"
             width={380}
             height={580}
+            className="z-20"
           ></Image>
+
+          {/* ----- downWave ------- */}
+          <figure className="absolute top-[292px] right-[115px] ">
+            <Image src="/images/downWave.png" width={427} height={323}></Image>
+          </figure>
         </div>
       </div>
     </section>

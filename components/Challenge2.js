@@ -3,6 +3,7 @@ import Image from "next/image";
 const Challenge2 = ({ name }) => {
   return (
     <div className="flex justify-center items-center text-white">
+      {/* ---------- left part --------- */}
       <div className="relative rounded-[20px] mr-[30px] ">
         <svg
           className=""
@@ -61,9 +62,10 @@ const Challenge2 = ({ name }) => {
         </svg>
       </div>
 
+      {/* -------- right part ----------*/}
       <div>
         <h1 className="leading-7 font-bold text-xl">
-          Get that 11 line <br></br> in 30 days
+          14 Days <br></br> sherd challenge
         </h1>
         <button
           className="flex items-center justify-center font-normal leading-7
