@@ -1,6 +1,8 @@
+import trainer from "../public/images/strong-man-training-gym2.png";
+
 const Hero = () => {
   return (
-    <section className="mt-[50px] h-[581.94px] w-[1281px] mx-auto">
+    <section className="mt-[85px] max-h-[581.94px] max-w-[1281px] mx-auto">
       <div className="flex justify-between items-center">
         {/* ------ 1st part -------*/}
         <div
@@ -68,7 +70,10 @@ const Hero = () => {
         {/* ------ 2nd part --------*/}
         <div className="w-1/2 border-2 border-blue-500">
           <h3>Trainer part</h3>
-          <img src="" alt="" />
+          <img
+            src="../public/images/strong-man-training-gym2.png"
+            alt="trainer"
+          />
         </div>
       </div>
     </section>
