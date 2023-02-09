@@ -1,4 +1,4 @@
-import trainer from "../public/images/strong-man-training-gym2.png";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -62,18 +62,17 @@ const Hero = () => {
 
           {/*------ brands ------*/}
           <p className="mt-[51px]">Brands:</p>
-          <div>
-            <img src="" alt="" />
-          </div>
+          <div></div>
         </div>
 
         {/* ------ 2nd part --------*/}
         <div className="w-1/2 border-2 border-blue-500">
           <h3>Trainer part</h3>
-          <img
-            src="../public/images/strong-man-training-gym2.png"
-            alt="trainer"
-          />
+          <Image
+            src="/images/strong-man-training-gym2.png"
+            width={380}
+            height={580}
+          ></Image>
         </div>
       </div>
     </section>
